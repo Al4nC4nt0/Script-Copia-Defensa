@@ -1,0 +1,16 @@
+#!/bin/bash
+# script para copia de archivos de CopiaALaDefensa
+cd /home/local/FISCALIA/47985807/Escritorio/copiadefensa
+sleep 2
+ls > /home/local/FISCALIA/47985807/Escritorio/archivos.txt
+sleep 3
+cd /home/local/FISCALIA/47985807/Escritorio
+sleep 2
+gedit archivos.txt
+sleep 2
+xdotool getactivewindows key Ctrl+a
+sleep 2
+xdotool getactivewindows key Ctrl+c
+sleep 2
+xdotool getactivewindows key Ctrl+q
+
